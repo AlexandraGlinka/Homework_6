@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -28,6 +29,15 @@ public class Main {
             if (n % 2 == 0 && n != 0) {
                 System.out.println(n);
             }
+        }
+    }
+
+    public static void task4() {
+        System.out.println("Задача 4");
+        // Выведите в консоль все числа от 10 до −10 от бо́льшего числа к меньшему.
+
+        for (int j = 10; j >= -10; j -= 1) {
+            System.out.println(j);
         }
     }
 }
