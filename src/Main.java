@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -51,6 +52,16 @@ public class Main {
                 System.out.println("Високосный год - " + y);
 
             }
+        }
+    }
+
+    public static void task6() {
+        System.out.println("Задача 6");
+        // 7 14 21 28 35 42 49 56 63 70 77 84 91 98
+
+        for (int t = 7; t <= 100; t += 7) {
+            System.out.println(t);
+
         }
     }
 }
