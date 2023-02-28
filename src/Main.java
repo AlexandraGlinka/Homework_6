@@ -64,9 +64,9 @@ public class Main {
         // 7 14 21 28 35 42 49 56 63 70 77 84 91 98
 
         for (int t = 7; t <= 100; t += 7) {
-            System.out.println(t);
-
+            System.out.print(t + " ");
         }
+        System.out.println();
     }
 
     public static void task7() {
