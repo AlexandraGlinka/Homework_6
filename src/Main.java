@@ -8,6 +8,7 @@ public class Main {
         task6();
         task7();
         task8();
+        task9();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -85,6 +86,21 @@ public class Main {
         int money = 29_000;
         int total = 0;
         for (int i = 1; i <= 12; i++) {
+            total += money;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " руб.");
+        }
+    }
+
+    public static void task9() {
+        System.out.println("Задача 9");
+        /*Перепишите решение задачи выше при условии,
+        что деньги вы откладывать будете не «в банку»,
+        а в банк под проценты — 12% годовых. Выведите сумму накоплений
+        за каждый месяц в консоль в формате: «Месяц …, сумма накоплений равна … рублей».*/
+        int money = 29_000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + total/100;
             total += money;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " руб.");
         }
