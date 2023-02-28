@@ -9,6 +9,7 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -103,6 +104,16 @@ public class Main {
             total = total + total/100;
             total += money;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " руб.");
+        }
+    }
+
+    public static void task10() {
+        System.out.println("Задача 10");
+        //Напишите программу, которая выводит в консоль таблицу умножения на 2: 2*1=2
+        int mult = 2;
+        for (int i = 1; i <= 10; i++) {
+            //mult = 2 * i;
+            System.out.println(mult + "*" + i + "=" + (mult * i));
         }
     }
 }
