@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -38,6 +39,18 @@ public class Main {
 
         for (int j = 10; j >= -10; j -= 1) {
             System.out.println(j);
+        }
+    }
+
+    public static void task5() {
+        System.out.println("Задача 5");
+        // 1904 года до 2096 - високосные
+
+        for (int y = 1904; y <= 2096; y++) {
+            if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
+                System.out.println("Високосный год - " + y);
+
+            }
         }
     }
 }
